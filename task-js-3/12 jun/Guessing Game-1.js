@@ -2,7 +2,7 @@ let playAgain = true;
 
 while (playAgain) {
 
-    let randomNumber = Math.floor(Math.random() * 100) + 1;
+    let randomNumber = parseInt(Math.random() * 100) + 1;
 
     let attempts = 0;
     let maxAttempts = 10;
